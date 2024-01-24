@@ -1,0 +1,11 @@
+Preguntas de la base de datos grupo 2
+1.	Cuantos clientes tienen registro eléctrico hasta la fecha
+2.	Qué tipo de tensión tiene el suministro de los clientes
+3.	Que tipo de modelo de batería tiene los suministros de los clientes
+4.	En qué departamento hay más suministro de clientes
+5.	Cual es el estado de los suministros de los clientes
+6.	Que marca de controlador tienen los registros eléctricos de los clientes
+7.	Cual es el valor de la tensión de los suministros eléctricos de los clientes.
+8.	Que marca de batería son los mas usados por los clientes
+9.	Numero de registros por fecha de instalación
+10.	Numero de suministros por departamento
