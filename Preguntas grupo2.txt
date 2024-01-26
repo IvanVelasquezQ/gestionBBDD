@@ -2,10 +2,10 @@ Preguntas de la base de datos grupo 2
 1.	Cuantos clientes han realizado su registro eléctrico por Distritos en el año 2023?
 2.	Cuál es la variación de registros realizados del 2022 al 2023?
 3.	Qué modelo de controlador es el más instalado por distrito del 2023?
-4.	Cual es la cantidad de suministros se encuentran operativos 2023?
+4.	Cual es la cantidad de registros eléctricos que se encuentran operativos 2023?
 5.	Cuál es el tipo de tensión de los suministros eléctricos que más solicitan los clientes (M, T) durante los últimos 3 meses?
 6.	Que marca de batería son los más instalados en el último trimestre?
-7.	En qué mes los clientes solicitan más registros eléctricos de tipo trifásico dentro del útlimo año?
+7.	Cuál es la cantidad de suministros instalados de tipo trifásico en el año 2022?
 8.	Cuál es la marca de batría más instalados en los suministros del 2023?
-9.	Que Distritos solicitan más registros eléctricos por semestre?
+9.	Que Distritos solicitan más suministros eléctricos de tipo monofásico en el 2022 y 2023?
 10.	Cuántos suministros tienen batería con falla en el año 2023?
