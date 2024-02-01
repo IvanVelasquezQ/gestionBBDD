@@ -1,6 +1,6 @@
 Preguntas de la base de datos grupo 2
 1.	Cuantos clientes han realizado su registro eléctrico por Distritos en el año 2023?
-2.	Cuál es la variación de registros realizados del 2022 al 2023?
+2.	Cuál es la variación de registros realizados del 2023 al 2022?
 3.	Qué modelo de controlador es el más instalado por distrito del 2023?
 4.	Cual es la cantidad de registros eléctricos que se encuentran operativos 2023?
 5.	Cuál es el tipo de tensión de los suministros eléctricos que más solicitan los clientes (M, T) durante los últimos 3 meses?
