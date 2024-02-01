@@ -207,3 +207,16 @@ values('2023-01-01','1997-03-17',2,'700008900025',1,3,1),
 ('2023-03-01','2004-09-23',6,'700008900037',2,4,3),
 ('2023-04-01','2010-01-28',3,'700008900038',3,4,4),
 ('2023-05-01','2020-10-01',7,'700008900031',6,5,5)
+
+--Insertando desde una importación
+--1.-Importar archivo csv a sql con el nombre grupo2.Suministros_data
+insert into grupo2.Suministro (id_Suministro,DNI_Cliente,Nomb_Cliente,ApPat_Cliente,
+ApMat_Cliente,Celular_Cliente,Direccion_Cliente,Tipo_Tension,Descripcion_Tension,Valor_Tensión)
+select id_Suministro,DNI_Cliente,Nomb_Cliente,ApPat_Cliente,ApMat_Cliente,Celular_Cliente,Direccion_Cliente,Tipo_Tension,Descripcion_Tension,Valor_Tensión
+from grupo2.Suministros_data
+
+--2.-Importar archivo csv a sql con el nombre grupo2.RegistrosElectricos_data
+insert into grupo2.RegistrosElectricos(Fecha_Registro,Fecha_Puesta_Servicio,id_Distrito,
+id_Suministro,id_Controlador,id_Bateria,id_Detalle_Estado)
+select Fecha_Registro,Fecha_Puesta_Servicio,id_Distrito,id_Suministro,id_Controlador,id_Bateria,id_Detalle_Estado
+from grupo2.RegistrosElectricos_data
